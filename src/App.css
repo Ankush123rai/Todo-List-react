@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: orange;
+}
+.main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.center-container{
+  height: 500px;
+  width: 450px;
+  background-color: #000;
+  border-radius: 10px;
+  border: 3px solid blue;
+  box-shadow: 12px 15px 15px ;
+  padding:1rem;
+}
+.app-heading{
+  padding: 2rem;
+  color: white;  
+  text-align: center;
+}
+.input-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  outline: none;
+
+}
+input{
+
+  border-radius: 14px; 
+  border: none;
+  outline: none;
+  font-size: large;
+}
+.input-box-todo{
+  margin-left: 10px;
+  width: 70%;
+  height: 40px;
+  border-radius: 14px;
+
+  padding-left: 10px;  
+  border: none;
+  outline: none;
+  font-size: large;
+}
+.add-btn{
+  width:40px;
+  height:30px;
+  border-radius: 10PX;
+  border:none;
+  background-color:#316fc1;
+  color: white;
+  font-weight: bolder;
+  font-size: larger;
+  margin-left: 10px;  
+  cursor: pointer;
+  box-shadow: 0px 5px 10px rgba(11, 10, 10, 0.3);
+  transition: 0.3s;
+}
+
+.list-container{
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  flex-direction: column;
+  justify-content: center;
+}
+.list-item{
+  list-style-type: none;
+  background-color: #25282c;
+  border:2px solid rgb(244, 237, 237);
+  color:white;
+  padding:3px;
+  padding-left: 15px;
+  border-radius: 5px; 
+  font-size: 1.1rem;
+  width: 90%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.icons{
+  position: absolute;
+  right: 10px;
+}
+.iconsC{
+  position: absolute;
+  right: 10px;
+  padding: .2rem;
+  margin: .9rem;
+  background-color: #5f9cec;
+  color:#fff;
+  display: flex;
+  border-radius: 5px;
+}
+ 
+.delete{
+ background-color: red;
+ color: aliceblue;
+ padding: .1rem;
+ border-radius: 5px;
+ cursor: pointer;
+  
+}
+.complete-btn{
+  background-color: rgb(72, 235, 72); 
+  color:#fff;
+  padding: .1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  margin-left: 19rem;
+ position: absolute;
+  
+}
+
